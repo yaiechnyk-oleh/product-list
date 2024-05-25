@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://via.placeholder.com/150",
+      "name": "Laptop",
+      "count": 10,
+      "size": {
+        "width": 200,
+        "height": 300
+      },
+      "weight": "1.5kg",
+      "comments": [1, 2]
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://via.placeholder.com/150",
+      "name": "Smartphone",
+      "count": 15,
+      "size": {
+        "width": 100,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [3]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://via.placeholder.com/150",
+      "name": "Headphones",
+      "count": 5,
+      "size": {
+        "width": 150,
+        "height": 150
+      },
+      "weight": "300g",
+      "comments": []
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "productId": 1,
+      "description": "Great performance, had it for a year now and still fast.",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "description": "Had some issues with the battery.",
+      "date": "16:30 05.09.2021"
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "description": "Superb camera quality, especially in low light.",
+      "date": "11:20 15.10.2021"
+    }
+  ]
+}
